@@ -4,7 +4,7 @@
  * @param {array} graph - a 2d array
  * @param {array} coordinate - a single coordinate
  */
-const getAdjacents = (graph, coordinate) => {
+const getAdjacentNeighbors = (graph, coordinate) => {
     let result = [];
 
     const row = coordinate[0];
@@ -50,5 +50,5 @@ const sampleGraph = [
 
 const sampleCoordinate = [1, 1];
 
-console.log(getAdjacents(sampleGraph, sampleCoordinate));
+console.log(getAdjacentNeighbors(sampleGraph, sampleCoordinate));
 // ===== end ======

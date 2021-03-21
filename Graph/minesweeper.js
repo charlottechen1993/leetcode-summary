@@ -58,8 +58,9 @@ var updateBoard = function(board, click) {
             return;
         }
         
+        // 4. update the current item to 'B' since no adjacent neighbor is a mine
         result[row][col] = "B";
-        // 4. for each adjacent spot of the current item (8 in total), perform DFS
+        // 5. for each adjacent spot of the current item (8 in total), perform DFS
         for (let dir of directions) {
             const newRow = row + dir[0];
             const newCol = col + dir[1];
