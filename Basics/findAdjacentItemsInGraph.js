@@ -25,20 +25,18 @@ const getAdjacents = (graph, coordinate) => {
         [1, 1]      // bottom right
     ];
 
-    // (2) iterate through each direction in 'directions':
+    // (2) check each potential neighbor coordinate:
     for (let dir of directions) {
         const newRow = row + dir[0]; // get the neighbor's row with dir offset
         const newCol = col + dir[1]; // get the neighbor's col with dir offset
 
-        // (3) check if a potential neightbor's coordinate is in bound
+        // (3) return if neighbor is in bound
         const isInBound = newRow >= 0 && newCol >= 0 && newRow < height && newCol < width;
-
-        // (4) return a valid neighbor
         if (isInBound) {
             result.push(graph[newRow][newCol]);
         }
     }
-    // (5) return final list
+    // (4) return final list
     return result;
 }
 
