@@ -11,8 +11,8 @@
         - const directions = [[0, 1], [0, -1], [1, 0], [-1, 0], [-1, 1], [-1, -1], [1, -1], [1, 1]]; // top-left, top, top-right, left, right, bottom-left, bottom, bottom-right
 
 ## Flagship Questions
-- 200. Number of Islands: https://leetcode.com/problems/number-of-islands/
-    - Solution: 
+- Number of Islands: https://leetcode.com/problems/number-of-islands/
+    - Solution: https://github.com/charlottechen1993/leetcode-summary/blob/master/2D%20Array/numberOfIslands.js
 
 ## Commonly Associated Topics
 - BFS/DFS
