@@ -10,5 +10,9 @@
     - If adjacent and corner neighbors:
         - const directions = [[0, 1], [0, -1], [1, 0], [-1, 0], [-1, 1], [-1, -1], [1, -1], [1, 1]]; // top-left, top, top-right, left, right, bottom-left, bottom, bottom-right
 
+## Flagship Questions
+- 200. Number of Islands: https://leetcode.com/problems/number-of-islands/
+    - Solution: 
+
 ## Commonly Associated Topics
 - BFS/DFS
